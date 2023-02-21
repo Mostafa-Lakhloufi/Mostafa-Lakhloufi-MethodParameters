@@ -1,4 +1,4 @@
-import org.w3c.dom.Text;
+
 
 public class Lab {
     /**
@@ -26,7 +26,8 @@ public class Lab {
      * @param text is a parameter passed into this method by whatever called it.
      * @return text.
      */
-    public String trimString(){
-        return null;
+    public String copy(String text){
+        return "return text please!";
+        return text; 
     }
 }
