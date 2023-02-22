@@ -27,9 +27,13 @@ public class Lab {
      * @return text.
      */
     
-    public static void Lab(String[] args) {
-        String str1 = "return text please!";
-        System.out.println(str1.substring(7, 11));
+    public static String textMethod() {
+        return "return text please!";
+    }
+    public static void main(String[] args) {
+        String str=textMethod();
+        System.out.println(str);
+    }
 
     }
 
