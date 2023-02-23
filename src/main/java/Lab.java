@@ -1,6 +1,5 @@
+public class Lab{
 
-
-public class Lab {
     /**
      * This method should return whatever String was passed into it by whatever invoked it (in this case, the test),
      * instead of returning "return text please!"
@@ -26,16 +25,9 @@ public class Lab {
      * @param text is a parameter passed into this method by whatever called it.
      * @return text.
      */
-    
-    public static String textMethod() {
-        return "return text please!";
-    }
-    public static void main(String[] args) {
-        String str=textMethod();
-        System.out.println(str);
-    }
 
+      
+      public static String copy(String text){
+        return text;
+      }
     }
-
-
-}
